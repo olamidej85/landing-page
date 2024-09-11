@@ -1,0 +1,126 @@
+.App{
+  margin-left: 80px;
+}
+@media (max-width:370px) {
+  .App {
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+h1{
+  color: #1C2022;
+  padding-top: 2px;
+ 
+  font-weight: 900; 
+  font-size: 70px; 
+}
+.heading1{
+  font-size: 50px;
+  font-weight: 900;
+}
+@media (max-width:370px) {
+  .heading1 {
+    font-size: 30px;
+    align-items: center;
+  }
+}
+a{
+  margin-left: 30px;
+  padding-left: 30px;
+}
+nav{
+  padding: 20px 0;
+}
+
+nav ul{
+  padding-right: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 50px;
+  margin-left: 15px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.part{
+  display: flex;
+  border: 0px solid ;
+  border-radius: 10px;
+  background-color: #EDF2F6;
+}
+.btnn{
+  background-color: transparent;
+  border: none;
+}
+li a{
+  text-decoration: none;
+  color: #353841;
+}
+.logo{
+  margin-top: 40px;
+  
+}
+
+.img-illu{
+ max-width: 700px;
+}
+@media only screen and (max-width: 370px) {
+  .img-illu {
+    width: 60%;
+    text-align: center;
+    max-width: 200px;
+  }
+}
+.column1{
+  margin-top: 30px;
+}
+.n-btn{
+  border: none;
+  border-radius: 15px;
+  width: 7%;
+  height: 4%;
+  background-color: #333;
+  color: white;
+  font-size: 10px;
+  
+  
+}
+.p-mono{
+  font-size: 10px;
+  color: #1C2022;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+.p-pro{
+  font-size: 12px;
+  color: #333;
+  padding-top: 10px;
+}
+.button{
+  display: flex;
+  
+}
+.cta-button {
+  background-color: #ff6961;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 0;
+}
+
+.cta-button:hover {
+  background-color: #e55a51;
+}
+.p-btn{
+  font-size: 10px;
+  color: #1C2022;
+  padding-top: 20px;
+  padding-left: 10px;
+
+}
